@@ -26,9 +26,9 @@ const multiline = "I love you\n"  //add multiline string [input\n]
 console.log(multiline);
 
 //Another way
-const multiline2 = `I love you.
+const multiline2 = `I love you. 
             I miss you no.
-            I don't need you`;
+            I don't need you`;      //using template string
 
 console.log(multiline2);
 
