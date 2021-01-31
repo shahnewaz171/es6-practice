@@ -18,7 +18,7 @@ console.log(total1);
 
 //Another
 function add(num1, num2){
-    num2 = num2 || 20;
+    num2 = num2 || 20; //add default value
     return num1 + num2;
 }
 const total2 = add(15);
@@ -32,7 +32,7 @@ const total3 = add(15);
 console.log(total3);
 
 //Last way
-function add(num1, num2 = 20){
+function add(num1, num2 = 20){ //add default value
     return num1 + num2;
 }
 const total4 = add(15, 1);
