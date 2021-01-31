@@ -18,8 +18,22 @@ console.log(total1);
 
 //Another
 function add(num1, num2){
-    num2 = num2 || 0;
+    num2 = num2 || 20;
     return num1 + num2;
 }
 const total2 = add(15);
 console.log(total2);
+
+//Another
+function add(num1, num2 = 20){
+    return num1 + num2;
+}
+const total3 = add(15);
+console.log(total3);
+
+//Last way
+function add(num1, num2 = 20){
+    return num1 + num2;
+}
+const total4 = add(15, 1);
+console.log(total4);
