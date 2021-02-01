@@ -9,6 +9,7 @@ const student1 = new student();
 const student2 = new student();
 console.log(student1, student2);
 
+
 //Another example
 class students{
     constructor(sId, sName){   //Add parameters for multiple value add but same property
@@ -17,6 +18,7 @@ class students{
         this.school = "Ideal School";
     }
 }
+
 const student3 = new students(12, "newaz");
 const student4 = new students(22, "mun");
 console.log(student3, student4);
